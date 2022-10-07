@@ -1,0 +1,105 @@
+.html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.Container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px 40px;
+  padding: 40px 40px;
+  height: 400px;
+  width: 1000px;
+}
+
+.Box-Container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.Box-1 {
+  background: darkgrey;
+  height: 140px;
+  width: 400px;
+}
+.Box-2 {
+  background: lightgrey;
+  height: 220px;
+  width: 400px;
+}
+
+.Box-2-Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.Intro-Container {
+  margin-bottom: 20px;
+}
+
+.Thick-Line-1 {
+  margin: 10px;
+  background: grey;
+  height: 15px;
+  width: 130px;
+}
+
+.Small-Line-2 {
+  margin: 10px;
+  background: darkgrey;
+  height: 5px;
+  width: 130px;
+}
+
+.Small-Line-3,
+.Small-Line-4,
+.Small-Line-5,
+.Small-Line-6,
+.Small-Line-7,
+.Small-Line-8 {
+  margin: 10px;
+  background: darkgrey;
+  height: 5px;
+  width: 300px;
+}
+
+.Box-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background: lightgrey;
+  margin-right: 220px;
+  height: 400px;
+  width: 200px;
+}
+
+.Line-1 {
+  background: grey;
+  height: 15px;
+  width: 100px;
+}
+
+.Line-2,
+.Line-3,
+.Line-4,
+.Line-5 {
+  background: darkgrey;
+  height: 5px;
+  width: 100px;
+}
+
+.Dummy-Box {
+  margin-top: 30px;
+  background: darkgrey;
+  height: 50px;
+  width: 100px;
+}
