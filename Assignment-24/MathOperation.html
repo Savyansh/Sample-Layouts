@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div>
+      <form>
+        1st number:
+        <input type="text" name="number1" />
+        2nd number:
+        <input type="text" name="number2" />
+        <br />
+        <input type="radio" name="op" value="add" />Add
+        <br />
+        <input type="radio" name="op" value="sub" />Subtract
+        <br />
+        <input type="radio" name="op" value="mul" />Multiply
+        <br />
+        <input type="radio" name="op" value="div" />Division
+        <br />
+        <input
+          type="button"
+          name="calc"
+          onclick="calculate()"
+          value="Calculate"
+        />
+        <br />
+      </form>
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
