@@ -1,0 +1,31 @@
+.mc-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-block {
+  background-color: grey;
+  height: 270px;
+  width: 310px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.ql-block {
+  background-color: grey;
+  height: 120px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
