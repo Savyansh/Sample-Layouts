@@ -12,7 +12,7 @@ function App() {
       <HeaderComponent name="home"></HeaderComponent>
 
       <ContentComponent employees={employeesArr}></ContentComponent>
-      <FooterComponent copyright="vineeth@gmail.com"></FooterComponent>
+      <FooterComponent copyright="Savyansh@gmail.com"></FooterComponent>
     </div>
   );
 }
